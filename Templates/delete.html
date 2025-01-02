@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head></head>
+    <body>
+        <h1>delete book{{ book.title }}</h1>
+        <form>
+            {% csrf_token %}  
+            <h1> are you sure ?</h1>
+            <input type='submit' value='conform delete'>
+        </form>
+    </body>
+</html>
